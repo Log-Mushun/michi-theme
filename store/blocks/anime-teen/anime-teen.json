@@ -1,0 +1,56 @@
+{
+  "store.custom#anime-teen": {
+    "blocks": [
+      "flex-layout.row#anime-teen",
+      "video#anime-teen"
+    ]
+  },
+
+  "flex-layout.row#anime-teen": {
+    "children": [
+      "image#mobile-phone",
+      "flex-layout.col#text-anime-teen"
+    ]
+  },
+
+  "flex-layout.col#text-anime-teen": {
+    "children": [
+      "rich-text#title-anime-teen",
+      "rich-text#anime-teen"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-anime-teen": {
+    "props": {
+      "text":
+      "# Del anime al mundo real versión gatito: ¡Hazlos tuyos!.",
+      "blockClass": "title"
+    }
+  },
+
+  "image#mobile-phone": {
+    "props": {
+      "src": "https://michifus.vtexassets.com/assets/vtex.file-manager-graphql/images/927fe60b-43c4-4f45-ae49-d31ff56326ca___d8f77b03ba6d3077ffbd059d399dabe2.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
+    }
+  },
+  "video#anime-teen": {
+    "props": {
+      "src": "https://www.youtube.com/watch?v=BU8OQEX3YOg",
+      "width": "100%",
+      "height": "100%"
+    }
+  },
+  "rich-text#anime-teen": {
+    "props": {
+      "text": "**🎌 Del anime al mundo real... ¡versión gatito! 🐾** \n ¡Hazlos tuyos y lleva tu pasión al siguiente nivel! \n **😻 Increíbles peluches anime gatificados** \n nspirados en tus personajes favoritos, ahora en su forma más adorable: ¡modo neko activado! 🐱✨ \n **🎯 Colecciónalos todos** \n Cada uno viene en diferentes versiones y estilos. ¡Encuentra el que más se parezca a ti o a tu personaje fav! \n **🌍 Envíos internacionales** \n pagos fáciles 💳 y muchas sorpresas más 🎁. \n" ,
+      "blockClass": "about"
+    }
+  }
+}
