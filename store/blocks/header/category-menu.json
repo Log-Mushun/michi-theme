@@ -6,6 +6,8 @@
     "children": [
       "menu-item#category-apparel",
       "menu-item#category-home",
+      "menu-item#category-almohadas",
+      "menu-item#category-majo",
       "menu-item#more"
     ]
   },
@@ -102,6 +104,36 @@
         "noFollow": false,
         "tagTitle": "Home & Decor",
         "text": "Home & Decor"
+      }
+    }
+  },
+  "menu-item#category-almohadas": {
+    "props": {
+      "id": "menu-item-category-almohadas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/almohadas/por-tipos/largas/",
+        "noFollow": false,
+        "tagTitle": "almohadas",
+        "text": "Almohadas largas"
+      }
+    }
+  },
+  "menu-item#category-majo": {
+    "props": {
+      "id": "menu-item-category-majo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/majo-makeup/",
+        "noFollow": false,
+        "tagTitle": "majo-store",
+        "text": "Majo makeup"
       }
     }
   },

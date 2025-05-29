@@ -110,6 +110,8 @@
     "children": [
       "menu-item#category-apparel",
       "menu-item#category-home",
+      "menu-item#category-almohadas",
+      "menu-item#category-majo",
       "menu-item#more"
     ],
     "props": {
